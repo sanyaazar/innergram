@@ -93,6 +93,7 @@ export class SessionService {
       ip: session.ip,
       userAgent: session.userAgent,
     });
+
     return {
       access_token: createdSession.accessToken,
       refresh_token: createdSession.refreshToken,
